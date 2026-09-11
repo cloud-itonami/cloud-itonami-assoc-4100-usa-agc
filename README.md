@@ -61,6 +61,6 @@ citation metadata (id/title/url/dates), not full text.
 
 ## Verification
 
-Run `clojure -M:test` and `clojure -M:lint`. Qualification covers reference
+Run `kbb -M:test` and `kbb -M:lint`. Qualification covers reference
 semantics, restricted JavaScript, and instantiated typed WebAssembly. The JVM
 is a compiler/test host only.
